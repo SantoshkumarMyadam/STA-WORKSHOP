@@ -6,12 +6,10 @@ Basically setup time is time required for data to reach from Dpin to Q point in 
 similarly Hold is time required to off the transmission gate of flop.latch.
 we know that flops and latches are available in different flavours,due to which internal inverters have different delays and hence setup and hold timings are different. 
 STA __INPUTS__CHECKS__TIMMING ANALYSIS
-![IMG_20220206_183954](https://user-images.githubusercontent.com/99008175/152683127-3c72cf8e-d2d4-4e77-92b8-5234539ded01.jpg)
-![IMG_20220206_183954 (2)](https://user-images.githubusercontent.com/99008175/152683513-37fb49d5-5986-49d2-9bfc-626d4a17c000.jpg)
 ![IMG_20220206_185852](https://user-images.githubusercontent.com/99008175/152683532-4fdaf796-de07-4792-9729-babc99b24dc4.jpg)
 CPPR
 When we do setup and hold analysis we know that PVT conditions effect the delay through elements and hence derates are applied,but extra pessimism should be avoided in commom path thus is CPPR(Common path pessimsim removal)
-![IMG_20220206_183954 (2)](https://user-images.githubusercontent.com/99008175/152683543-9309f9e8-c7e6-4e5b-8377-eeae9e9fe23b.jpg)
+![IMG_20220206_183954](https://user-images.githubusercontent.com/99008175/152683127-3c72cf8e-d2d4-4e77-92b8-5234539ded01.jpg)
 here we can observe cppr is 6.6ps timing difference before and after cppr enabling.
 ![0](https://user-images.githubusercontent.com/99008175/152683642-6c4cb64f-09c2-4966-bd02-61cb5ba5847b.jpg)
 ![0](https://user-images.githubusercontent.com/99008175/152683634-12dcd72f-e33d-44a1-b663-9cc9a851c5dc.jpg)
