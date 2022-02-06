@@ -13,7 +13,7 @@ When we do setup and hold analysis we know that PVT conditions effect the delay 
 here we can observe cppr is 6.6ps timing difference before and after cppr enabling.
 ![0](https://user-images.githubusercontent.com/99008175/152683642-6c4cb64f-09c2-4966-bd02-61cb5ba5847b.jpg)
 ![0](https://user-images.githubusercontent.com/99008175/152683634-12dcd72f-e33d-44a1-b663-9cc9a851c5dc.jpg)
-![0](https://user-images.githubusercontent.com/99008175/152683734-102a6588-51be-40bc-be40-f0a7e22b709e.jpg)
+
 ECO
 In ECO we do small changes like adding or deleting gates,nets or change pins connection.
 ![IMG_20220206_124300](https://user-images.githubusercontent.com/99008175/152683861-c41986bc-65fe-4284-b72d-06eb5bbf5ba5.jpg)
