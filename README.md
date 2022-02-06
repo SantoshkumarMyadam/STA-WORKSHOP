@@ -5,3 +5,20 @@ The basic timing parameters setup and hold depends on its internal structure.We 
 Basically setup time is time required for data to reach from Dpin to Q point in flop/latch.
 similarly Hold is time required to off the transmission gate of flop.latch.
 we know that flops and latches are available in different flavours,due to which internal inverters have different delays and hence setup and hold timings are different. 
+STA __INPUTS__CHECKS__TIMMING ANALYSIS
+![IMG_20220206_183954](https://user-images.githubusercontent.com/99008175/152683127-3c72cf8e-d2d4-4e77-92b8-5234539ded01.jpg)
+![IMG_20220206_183954 (2)](https://user-images.githubusercontent.com/99008175/152683513-37fb49d5-5986-49d2-9bfc-626d4a17c000.jpg)
+![IMG_20220206_185852](https://user-images.githubusercontent.com/99008175/152683532-4fdaf796-de07-4792-9729-babc99b24dc4.jpg)
+CPPR
+When we do setup and hold analysis we know that PVT conditions effect the delay through elements and hence derates are applied,but extra pessimism should be avoided in commom path thus is CPPR(Common path pessimsim removal)
+![IMG_20220206_183954 (2)](https://user-images.githubusercontent.com/99008175/152683543-9309f9e8-c7e6-4e5b-8377-eeae9e9fe23b.jpg)
+here we can observe cppr is 6.6ps timing difference before and after cppr enabling.
+![0](https://user-images.githubusercontent.com/99008175/152683642-6c4cb64f-09c2-4966-bd02-61cb5ba5847b.jpg)
+![0](https://user-images.githubusercontent.com/99008175/152683634-12dcd72f-e33d-44a1-b663-9cc9a851c5dc.jpg)
+![0](https://user-images.githubusercontent.com/99008175/152683734-102a6588-51be-40bc-be40-f0a7e22b709e.jpg)
+ECO
+In ECO we do small changes like adding or deleting gates,nets or change pins connection.After ECO insertion we can observe slack improves
+![IMG_20220206_124300](https://user-images.githubusercontent.com/99008175/152683861-c41986bc-65fe-4284-b72d-06eb5bbf5ba5.jpg)
+![IMG_20220206_130209](https://user-images.githubusercontent.com/99008175/152683863-6f0f9db3-e6a4-4952-8fba-3b8245bceb0d.jpg)
+![0](https://user-images.githubusercontent.com/99008175/152683908-06deb7dd-3298-4de4-b4b0-3854bdc2f27e.jpg)
+![0](https://user-images.githubusercontent.com/99008175/152683924-df5a2d62-b07c-47f6-8d56-f795abd23dbb.jpg)
