@@ -15,8 +15,9 @@ here we can observe cppr is 6.6ps timing difference before and after cppr enabli
 ![0](https://user-images.githubusercontent.com/99008175/152683634-12dcd72f-e33d-44a1-b663-9cc9a851c5dc.jpg)
 ![0](https://user-images.githubusercontent.com/99008175/152683734-102a6588-51be-40bc-be40-f0a7e22b709e.jpg)
 ECO
-In ECO we do small changes like adding or deleting gates,nets or change pins connection.After ECO insertion we can observe slack improves
+In ECO we do small changes like adding or deleting gates,nets or change pins connection.
 ![IMG_20220206_124300](https://user-images.githubusercontent.com/99008175/152683861-c41986bc-65fe-4284-b72d-06eb5bbf5ba5.jpg)
 ![IMG_20220206_130209](https://user-images.githubusercontent.com/99008175/152683863-6f0f9db3-e6a4-4952-8fba-3b8245bceb0d.jpg)
 ![0](https://user-images.githubusercontent.com/99008175/152683908-06deb7dd-3298-4de4-b4b0-3854bdc2f27e.jpg)
+After ECO insertion we can observe slack improves
 ![0](https://user-images.githubusercontent.com/99008175/152683924-df5a2d62-b07c-47f6-8d56-f795abd23dbb.jpg)
